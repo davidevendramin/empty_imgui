@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di risorse\GUI">
+      <UniqueIdentifier>{b7eefb3e-0758-441f-bf22-066210cb245d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\GUI">
+      <UniqueIdentifier>{766d82fe-f510-4230-8fc4-36d65f1e0437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Menu">
+      <UniqueIdentifier>{0b4541de-9018-4059-a5ac-533c7351029a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Widget">
+      <UniqueIdentifier>{ddd0caea-8158-4d8f-ae38-3b3307823cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di risorse\Menu">
+      <UniqueIdentifier>{7812026d-5dc9-4867-a9f4-0fc202423cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di risorse\Widget">
+      <UniqueIdentifier>{26083f16-a3ad-4bdb-bd4c-dabd19610692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di risorse\Model">
+      <UniqueIdentifier>{792b6a7c-8d1b-44ac-9a5c-3c5f1b6bd474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di risorse\Controller">
+      <UniqueIdentifier>{786c8b40-4b74-4812-9d75-7cfd3d459e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Model">
+      <UniqueIdentifier>{ec6f0d55-9056-48e8-810c-da5bab553730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Controller">
+      <UniqueIdentifier>{cc4de7cb-7c45-4a6b-8bcf-f7423dbea9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Dependency">
+      <UniqueIdentifier>{6fca8369-1a47-4c4f-8e03-ddf9e819528c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI.cpp">
+      <Filter>File di origine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Menu\Menu.cpp">
+      <Filter>File di origine\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\DataStore.cpp">
+      <Filter>File di origine\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\Controller.cpp">
+      <Filter>File di origine\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widget\Widget.cpp">
+      <Filter>File di origine\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widget\ExampleWidget.cpp">
+      <Filter>File di origine\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_demo.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_draw.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_tables.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\imgui_widgets.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\implot\implot_items.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency\implot\implot.cpp">
+      <Filter>File di origine\Dependency</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>File di risorse\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Menu\Menu.h">
+      <Filter>File di risorse\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\DataStore.h">
+      <Filter>File di risorse\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\Controller.h">
+      <Filter>File di risorse\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Widget\ExampleWidget.h">
+      <Filter>File di risorse\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Widget\Widget.h">
+      <Filter>File di risorse\Widget</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
